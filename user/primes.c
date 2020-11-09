@@ -22,7 +22,6 @@ void try1(){
             while (read(0,&k,sizeof(int))){
                 judge(j,k);
             }
-            wait();
 
         }
 
@@ -32,7 +31,7 @@ void try1(){
             close(p[1]);
             close(p[0]);
             try1();
-            wait();
+
         }
     }
     exit();
